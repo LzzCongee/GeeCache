@@ -1,0 +1,1111 @@
+2025/03/25 21:42:00 === 性能测试开始于 2025-03-25T21:42:00+08:00 ===
+2025/03/25 21:42:00 等待分布式缓存服务启动...
+2025/03/25 21:42:02 Using etcd service discovery with endpoints: [localhost:2379]
+2025/03/25 21:42:02 Starting cache server at http://localhost:8009 with etcd service discovery
+2025/03/25 21:42:03 Refreshed peers: [http://localhost:8003 http://localhost:8002]
+2025/03/25 21:42:03 Service added/updated: /services/geecache/http://localhost:8009 -> http://localhost:8009
+2025/03/25 21:42:03 Service registered: /services/geecache/http://localhost:8009 -> http://localhost:8009
+2025/03/25 21:42:03 Press Ctrl+C to shut down server...
+2025/03/25 21:42:03 geecache is running at http://localhost:8009
+2025/03/25 21:42:03 Lease renewed: 7587885656309539923
+2025/03/25 21:42:06 Lease renewed: 7587885656309539923
+2025/03/25 21:42:08 [Server http://localhost:8009] GET /_geecache/scores/key-258
+2025/03/25 21:42:08 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:08 [Server http://localhost:8009] GET /_geecache/scores/key-401
+2025/03/25 21:42:08 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-344
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-33": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-207": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-135": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-300": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-127": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-93": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-207": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-253": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-59": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-97": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-332": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-413": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-238": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-218": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-360": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-16": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-261": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-45": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-173": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-30": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-168": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-251": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-298": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-314": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-118": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-96": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-312": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-226": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-483": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-214": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-450": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-74": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-195": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-69": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-336": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-458": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-345": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-487": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-322": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-256": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-49": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-5": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-218": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-93": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-199": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-8": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-479": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-432": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-410": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-72": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-282": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-483": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-438": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-418": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-96": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-381": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-0": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-32": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-78": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-194": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-275": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-342": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-166": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-161": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-17": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-311": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-108": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-327": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-129": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-354": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-317": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-358": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-463": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-376": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-27": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-369": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-79": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-456": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-366": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-209": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-464": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-475": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-68": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-39": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-480": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-276": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-2": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-405": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-401": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-346": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-164": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-221": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-185": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-148": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-481": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-155": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-310": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-476": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-414": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-485": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-45": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-111": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-55": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-460": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-277": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-231": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-247": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-454": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-432": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-423": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-35": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-309": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-494": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-130": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-247": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-7": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-113": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-343": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-469": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-425": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-387": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-58": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-23": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-351": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-294": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-419": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-266": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-304": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-307": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-436": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-283": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-392": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-370": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-185": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-468": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-296": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-259": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-263": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-241": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-216": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-449": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-498": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-138": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-0": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-224": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-123": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-270": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-281": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-33": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-351": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-374": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-72": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-348": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-103": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-466": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-440": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-184": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-130": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-94": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-190": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-79": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-85": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-252": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-196": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-306": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-169": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-25": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-147": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-340": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-219": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-235": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-75": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-29": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-293": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-323": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-345": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-420": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-239": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-425": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-469": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-461": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-386": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-158": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-320": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-193": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-21": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-57": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-431": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-499": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-2": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-415": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-192": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-401
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-208
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-58": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-249": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-266": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-183": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-99": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-400": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-315": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-87": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-492": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-312": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-186": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-197": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-151": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-412": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-364": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-105": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-17": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-376": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-19": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-457": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-493": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-321": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-313": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-117": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-76": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-357": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-15": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-81": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-214": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-377": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-173": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-245": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-172": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-471": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-386": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-474": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-198": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-116": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-407": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-397": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-178": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-341": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-334": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-24": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-350": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-388": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-149": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-140": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-153": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-422": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-324": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-66": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-260": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-122": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-378": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-65": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-484": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-83": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-451": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-452": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-204": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-336": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-311": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-297": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-14": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-426": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-210": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-80": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-154": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-40": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-250": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-212": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-174": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-198": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-54": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-156": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-139": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-126": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-284": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-69": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-324": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-201": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-453": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-203": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-391": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-86": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-398": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-90": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-37": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-383": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-115": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-208": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-325": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-492": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-435": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-271": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-158": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-49": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-235": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-24": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-67": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-77": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-361": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-196": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-126": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-171": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-281": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-135": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-413": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-408": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-397": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-188": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-217": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-477": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-389": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-431": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-141": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-291": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-116": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-457": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-349": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-175": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-59": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-418": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-487": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-174": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-117": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-170": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-409": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-32": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-159": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-465": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-460": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-499": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-179": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-393": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-391": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-304": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-265": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-223": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-258": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-480": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-323": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-424": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-375": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-292": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-110": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-157": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-355": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-29": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-138": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-243": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-317": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-379": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-442": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-285": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-51": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-259": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-128": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-333": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-120": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-400": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-230": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-289": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-445": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-176": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-435": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-467": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-16": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-227": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-84": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-434": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-295": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-102": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-85": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-417": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-423": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-358": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-6": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-441": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-204": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-430": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-31": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-63": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-47": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-240": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-248": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-39": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-19": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-216": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-104": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-108": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-297": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-279": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-486": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-272": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-306": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-163": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-144": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-191": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-255": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-240": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-470": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-191": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-278": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-286": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-206": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-193": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-269": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-54": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-389": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-192": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-220
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-429": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-408": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-201": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-330": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-273": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-287": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-107": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-258
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-22": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-278": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-474
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-388": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-427": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-283": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-347": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-415": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-82": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-202": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-248": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-124": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-321": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-307": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-249": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-253": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-447": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-428": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-75": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-346": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-433": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-10": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-233": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-365": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-61": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-104": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-12": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-268": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-290": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-486": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-62": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-137": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-416": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-43": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-357": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-299": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-133": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-181": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-449": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-26": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-34": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-184": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-110": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-381": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-154": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-246": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-329": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-392": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-343": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-215": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-430": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-396": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-141": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-390": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-406": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-488": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-302": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-180": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-373": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-47": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-490": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-436": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-319": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-13": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-268": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-167": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-7": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-188": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-377": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-327": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-362": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-187": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-246": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-230": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-101": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-447": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-332": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-82": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-318": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-219": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-133": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-267": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-384": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-288": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-257": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-1": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-330": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-169": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-293": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-472": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-494": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-36": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-119": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-134": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-471": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-454": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-182": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-481": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-250": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-149": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-31": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-484": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-282": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-200": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-200": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-52": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-172": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-103": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-217": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-105": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-284": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-80": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-331": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-444": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-296": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-491": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-42": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-426": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-353": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-222": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-263": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-64": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-374": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-347": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-50": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-303": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-9": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-326": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-73": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-11": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-123": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-439": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-421": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-65": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-308": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-257": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-153": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-37": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-262": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-34": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-62": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-341": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-15": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-310": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-337": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-495": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-450": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-70": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-161": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-382": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-190": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-25": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-205": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-434": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-53": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-394": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-5": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-165": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-56": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-42": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-287": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-375": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-4": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-223": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-349": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-95": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-360": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-213": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-120": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-113": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-109": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-409": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-429": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-139": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-125": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-166": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-63": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-239": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-478": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-203": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-167": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-458": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-269": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-496": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-339": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-118": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-229": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-342": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-237": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-74": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-368": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-467": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-364": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-213": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-428": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-322": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-40": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-350": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-334": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-48": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-128": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-305": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-36": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-466": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-331": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-159": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-498": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-356": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-477": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-132": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-456": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-254": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-132": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-280": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-3": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-41": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-199": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-340": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-328": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-10": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-28": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-232": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-478": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-121": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-8": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-44": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-242": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-20": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-464": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-234": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-142": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-68": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-92": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-479": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-38": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-171": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-112": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-462": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-280": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-27": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-168": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-23": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-437": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-122": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-276": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-234": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-461
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-371": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-189": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-51": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-238": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-355": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-114
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-215
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-61": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-359": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-274": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-186": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-488": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-271": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-35": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-455": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-131": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-211": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-145": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-363": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-137": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-244": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-302": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-48": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-290": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-314": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-329": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-220
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-279": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-119": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-114
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-410": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-262": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-245": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-406": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-368": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-446": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-152": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-301": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-367": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-459": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-356": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-12": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-338": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-485
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-97": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-107": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-46": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-305": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-369": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-390": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-100": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-156": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-157": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-385": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-404": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-106": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-221": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-212": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-443": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-288": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-427": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-448": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-395": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 请求失败: Get "http://localhost:9999/api?key=key-226": dial tcp [::1]:9999: connectex: No connection could be made because the target machine actively refused it.
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-476
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-94
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-195
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-333
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-485
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-180
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-160
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-289
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-348
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-333
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-152
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-180
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-289
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-387
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-187
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-152
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-44
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-315
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-77
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-493
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-361
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-211
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-265
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-244
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-182
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-328
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-308
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-328
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-28
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-182
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-155
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-170
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-495
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-455
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-6
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-439
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-316
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-115
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-6
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-437
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-495
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-385
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-378
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-227
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-236
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-233
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-378
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-437
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-452
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-236
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-233
+2025/03/25 21:42:09 [Server http://localhost:8009] GET /_geecache/scores/key-70
+2025/03/25 21:42:09 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:09 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:09 [SlowDB] search key key-452
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-112
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-362
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-462
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-175
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-411
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-150
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-496
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-18
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-162
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-295
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-309
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-150
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-453
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-448
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-255
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-165
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-462
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-416
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-175
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-224
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-367
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-18
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-260
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-496
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-365
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-453
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-309
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-165
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-451
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-367
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-224
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-285
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-261
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-125
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-38
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-92
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-125
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-124
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-313
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-181
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-124
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-382
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-181
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-241
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-151
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-241
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-420
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-228
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-228
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-164
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-420
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-148
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-220
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-111
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-379
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 Lease renewed: 7587885656309539923
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-320
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-78
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-220
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-18
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-379
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-320
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-78
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-18
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-114
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-228
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-114
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-179
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-228
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-9
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-90
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-491
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-26
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-150
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-404
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-179
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-236
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-9
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-251
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8003
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-26
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-121
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-87
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-150
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-463
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-236
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-121
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-463
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-87
+2025/03/25 21:42:10 [Server http://localhost:8009] GET /_geecache/scores/key-424
+2025/03/25 21:42:10 [Server http://localhost:8009] Pick peer http://localhost:8002
+2025/03/25 21:42:10 [GeeCache] Failed to get from peer server returned: 500 Internal Server Error
+2025/03/25 21:42:10 [SlowDB] search key key-424
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-461": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-474": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-115": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-251": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-476": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-215": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-160": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-316": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-261": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-439": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-164": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-361": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-344": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-28": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-155": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-348": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-387": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-44": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-195": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-187": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-208": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-94": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-90": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-411": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-295": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-308": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-70": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-170": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-77": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-315": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-448": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-493": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-385": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-265": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-244": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-404": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-455": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-211": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-227": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-111": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-285": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-92": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-112": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-38": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-362": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-382": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-313": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-451": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-162": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-148": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-316": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-344": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-162": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-260": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-491": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-365": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-416": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-411": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-255": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-160": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 请求失败: Get "http://localhost:9999/api?key=key-151": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/03/25 21:42:12 分布式缓存测试完成:
+2025/03/25 21:42:12 总请求数: 1000
+2025/03/25 21:42:12 成功请求数: 50
+2025/03/25 21:42:12 成功率: 5.00%
+2025/03/25 21:42:12 缓存命中数: 50
+2025/03/25 21:42:12 缓存命中率: 5.00%
+2025/03/25 21:42:12 总耗时: 5.0475897s
+2025/03/25 21:42:12 吞吐量: 198.11 请求/秒
+2025/03/25 21:42:13 Refreshed peers: [http://localhost:8002 http://localhost:8003 http://localhost:8009]
+2025/03/25 21:42:13 Lease renewed: 7587885656309539923
+2025/03/25 21:42:17 Lease renewed: 7587885656309539923

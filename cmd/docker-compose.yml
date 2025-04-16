@@ -1,0 +1,59 @@
+version: '3'
+
+services:
+  # etcd服务
+  etcd:
+    image: bitnami/etcd:latest
+    container_name: geecache-etcd
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ADVERTISE_CLIENT_URLS=http://0.0.0.0:2379
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+    ports:
+      - "2379:2379"
+      - "2380:2380"
+    networks:
+      - geecache-network
+
+  # 缓存节点1
+  node1:
+    build: .
+    container_name: geecache-node1
+    command: ["-port=8001", "-etcd=true", "-etcd-endpoints=etcd:2379"]
+    ports:
+      - "8001:8001"
+    depends_on:
+      - etcd
+    networks:
+      - geecache-network
+
+  # 缓存节点2
+  node2:
+    build: .
+    container_name: geecache-node2
+    command: ["-port=8002", "-etcd=true", "-etcd-endpoints=etcd:2379"]
+    ports:
+      - "8002:8002"
+    depends_on:
+      - etcd
+    networks:
+      - geecache-network
+
+  # API节点
+  api:
+    build: .
+    container_name: geecache-api
+    command: ["-port=8003", "-api=true", "-etcd=true", "-etcd-endpoints=etcd:2379"]
+    ports:
+      - "8003:8003"
+      - "9999:9999"
+    depends_on:
+      - etcd
+      - node1
+      - node2
+    networks:
+      - geecache-network
+
+networks:
+  geecache-network:
+    driver: bridge
