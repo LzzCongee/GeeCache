@@ -229,9 +229,11 @@ func (g *Group) load(key string) (value ByteView, err error) {
 	viewi, err := g.loader.Do(key, func() (interface{}, error) {
 		// 检查是否为热点数据
 		isHotSpot := g.recordAccess(key)
-
+		// TODO：添加超時上下文
+		//     ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second) // 示例：设置3秒超时
+		//     defer cancel()
 		if g.peers != nil {
-			// 如果是热点数据且有多个节点可用，使用并行查询
+			// 如果是热点数据且有多个节点可用，使用并行查询(即同时向主数据源和备份源发起请求)
 			if isHotSpot {
 				peers, ok := g.peers.PickPeers(key, g.hotSpot.backupCount)
 				if ok && len(peers) > 0 {
@@ -357,6 +359,7 @@ func (g *Group) getFromPeers(peers []PeerGetter, key string) (ByteView, error) {
 }
 
 // 将热点数据同步到备份节点
+// TODO: pb文件新增Set方法
 func (g *Group) syncToBackupPeers(key string, value ByteView) {
 	if g.peers == nil {
 		return
@@ -385,11 +388,13 @@ func (g *Group) syncToBackupPeers(key string, value ByteView) {
 			// 这里假设PeerGetter接口有一个Set方法用于设置数据
 			// 实际上可能需要扩展PeerGetter接口或使用HTTP PUT请求
 			// 这里简化处理，仅演示概念
+			// 检查 peer 是否实现了 Set 方法 (可能需要扩展 PeerGetter 或在 httpGetter 中实现)
 			if setter, ok := p.(interface {
 				Set(*pb.Request, *pb.Response) error
 			}); ok {
 				err := setter.Set(req, res)
 				if err != nil {
+					// 如果 PeerGetter 没有 Set 方法，可能需要记录日志或采取其他措施
 					log.Printf("[GeeCache] Failed to sync hot spot data to peer: %v", err)
 				}
 			}
