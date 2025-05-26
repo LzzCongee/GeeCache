@@ -37,6 +37,8 @@ const (
 	StorageTypeRocksDB StorageType = "rocksdb"
 	// StorageTypeBadger Badger存储
 	StorageTypeBadger StorageType = "badger"
+	// StorageTypeMemory C++内存存储 - 跳表结构
+	StorageTypeCppSkipList StorageType = "skiplist"
 	// StorageTypeCppMemory C++内存存储
 	StorageTypeCppMemory StorageType = "cpp_memory"
 	// StorageTypeCppLevelDB C++ LevelDB存储
@@ -60,6 +62,8 @@ func NewStorage(storageType StorageType, options StorageOptions) (Storage, error
 	switch storageType {
 	case StorageTypeMemory:
 		return NewMemoryStorage(options)
+	case StorageTypeCppSkipList:
+		return NewCppSkipListStorage(options)
 	case StorageTypeCppMemory:
 		// return NewCppMemoryStorage(options)
 		return nil, fmt.Errorf("storage type %s not implemented yet", storageType)
