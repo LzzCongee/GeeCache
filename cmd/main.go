@@ -12,6 +12,7 @@ import (
 	"strings"
 	"syscall"
 	"time"
+	"crypto/tls"
 )
 
 var db = map[string]string{
@@ -33,16 +34,26 @@ func createGroup() *geecache.Group {
 }
 
 // 启动简单模式的缓存服务器
-func startCacheServer(addr string, addrs []string, gee *geecache.Group) {
-	peers := geecache.NewHTTPPool(addr)
+func startCacheServer(addr string, addrs []string, gee *geecache.Group, useTLS bool, certFile, keyFile, caFile string) {
+	if useTLS {
+		peers = geecache.NewHTTPPoolWithTLS(addr, caFile)
+	} else {
+		peers = geecache.NewHTTPPool(addr)
+	}
 	peers.Set(addrs...)
 	gee.RegisterPeers(peers)
 	log.Println("geecache is running at", addr)
-	log.Fatal(http.ListenAndServe(addr[7:], peers))
+	if useTLS {
+		log.Fatal(http.ListenAndServeTLS(addr[8:], certFile, keyFile, peers))
+	} else {
+		log.Fatal(http.ListenAndServe(addr[7:], peers))
+	}
+	
 }
 
 // 启动支持服务发现的缓存服务器
-func startCacheServerWithDiscovery(addr string, etcdEndpoints []string, gee *geecache.Group) (*registry.EtcdRegistry, error) {
+func startCacheServerWithDiscovery(addr string, etcdEndpoints []string, gee *geecache.Group, 
+	useTLS bool, certFile, keyFile, caFile string) (*registry.EtcdRegistry, error) {
 	// 创建服务发现客户端
 	discovery, err := registry.NewDiscovery(registry.RegistryTypeEtcd, etcdEndpoints, registry.DefaultServicePrefix)
 	if err != nil {
@@ -50,7 +61,11 @@ func startCacheServerWithDiscovery(addr string, etcdEndpoints []string, gee *gee
 	}
 
 	// 创建支持服务发现的HTTP节点池
-	peers := geecache.NewHTTPPoolWithDiscovery(addr, discovery, registry.DefaultServicePrefix)
+	if useTLS {
+		peers = geecache.NewHTTPPoolWithDiscoveryAndTLS(addr, discovery, registry.DefaultServicePrefix, caFile)
+	} else {
+		peers = geecache.NewHTTPPoolWithDiscovery(addr, discovery, registry.DefaultServicePrefix)
+	}
 	gee.RegisterPeers(peers)
 
 	// 创建服务注册客户端
@@ -70,7 +85,11 @@ func startCacheServerWithDiscovery(addr string, etcdEndpoints []string, gee *gee
 	// 启动HTTP服务
 	go func() {
 		log.Println("geecache is running at", addr)
-		log.Fatal(http.ListenAndServe(addr[7:], peers))
+		if useTLS {
+			log.Fatal(http.ListenAndServeTLS(addr[8:], certFile, keyFile, peers))
+		} else {
+			log.Fatal(http.ListenAndServe(addr[7:], peers))
+		}		
 	}()
 
 	return r.(*registry.EtcdRegistry), nil
@@ -134,12 +153,20 @@ func main() {
 	var useEtcd bool
 	var runTests bool
 	var etcdEndpoints string
+	var useTLS bool
+    var certFile string		// 证书文件路径	
+    var keyFile string		// 私钥文件路径
+    var caFile string		// CA证书文件路径
 
 	flag.IntVar(&port, "port", 8001, "Geecache server port")
 	flag.BoolVar(&api, "api", false, "Start an API server?")
 	flag.BoolVar(&useEtcd, "etcd", false, "Use etcd for service discovery?")
 	flag.BoolVar(&runTests, "test", false, "Run distributed tests after startup")
 	flag.StringVar(&etcdEndpoints, "etcd-endpoints", "localhost:2379", "Etcd endpoints, separated by comma")
+	flag.BoolVar(&useTLS, "https", false, "Enable HTTPS for peer communication?")
+    flag.StringVar(&certFile, "cert", "server.crt", "TLS certificate file")
+	flag.StringVar(&keyFile, "key", "server.key", "TLS private key file")
+	flag.StringVar(&caFile,  "ca",   "ca.pem",     "CA certificate file for peer trust")
 	flag.Parse()
 
 	apiAddr := "http://localhost:9999"
@@ -179,7 +206,7 @@ func main() {
 		addr := fmt.Sprintf("http://localhost:%d", port)
 		log.Printf("Starting cache server at %s with etcd service discovery\n", addr)
 
-		reg, err := startCacheServerWithDiscovery(addr, endpoints, gee)
+		reg, err := startCacheServerWithDiscovery(addrMap[port], addrs, gee, useTLS, certFile, keyFile, caFile)
 		if err != nil {
 			log.Fatalf("Failed to start cache server with discovery: %v", err)
 		}
@@ -201,6 +228,6 @@ func main() {
 	} else {
 		// 使用硬编码方式指定节点地址
 		log.Printf("Starting cache server at %s with peers %v\n", addrMap[port], addrs)
-		startCacheServer(addrMap[port], addrs, gee)
+		startCacheServer(addrMap[port], addrs, gee, useTLS, certFile, keyFile, caFile)
 	}
 }

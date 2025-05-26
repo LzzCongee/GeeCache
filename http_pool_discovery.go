@@ -6,6 +6,9 @@ import (
 	"log"
 	"sync"
 	"time"
+	"crypto/tls"           // 新增：TLS 支持
+	"crypto/x509"          // 新增：根证书池
+	"io/ioutil"            // 新增：读取 CA 文件
 )
 
 // HTTPPoolWithDiscovery 实现基于服务发现的HTTP节点池
@@ -26,6 +29,32 @@ func NewHTTPPoolWithDiscovery(self string, discovery registry.Discovery, service
 
 	pool := &HTTPPoolWithDiscovery{
 		HTTPPool:        NewHTTPPool(self),
+		discovery:       discovery,
+		servicePrefix:   servicePrefix,
+		refreshInterval: 10 * time.Second,
+		stopSignal:      make(chan struct{}),
+	}
+
+	// 初始化节点列表
+	pool.refreshPeers()
+
+	// 启动定期刷新节点的goroutine
+	go pool.refreshPeersLoop()
+
+	return pool
+}
+
+// NewHTTPPoolWithDiscoveryAndTLS 创建一个支持服务发现的 HTTPS 节点池
+// caFile: CA 根证书，用于验证其他节点的 TLS 证书
+func NewHTTPPoolWithDiscoveryAndTLS(self string, discovery registry.Discovery, servicePrefix, caFile string) *HTTPPoolWithDiscovery {
+	if servicePrefix == "" {
+		servicePrefix = registry.DefaultServicePrefix
+	}
+
+	// 创建带 TLS 配置的 HTTPPool
+	tlsPool := NewHTTPPoolWithTLS(self, caFile)
+	pool := &HTTPPoolWithDiscovery{
+		HTTPPool:        tlsPool,  // HTTPPool.client = newTLSClient(caFile)
 		discovery:       discovery,
 		servicePrefix:   servicePrefix,
 		refreshInterval: 10 * time.Second,

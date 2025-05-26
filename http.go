@@ -11,6 +11,8 @@ import (
 	"net/url"
 	"strings"
 	"sync"
+	"crypto/tls"
+	"crypto/x509"
 
 	"github.com/golang/protobuf/proto"
 )
@@ -28,6 +30,8 @@ type HTTPPool struct {
 	mu          sync.Mutex // guards peers and httpGetters
 	peers       *consistenthash.Map
 	httpGetters map[string]*httpGetter // keyed by e.g. "http://10.0.0.2:8008"
+
+	client      *http.Client    // 支持自定义 TLS Client
 }
 
 // NewHTTPPool initializes an HTTP pool of peers.
@@ -37,6 +41,26 @@ func NewHTTPPool(self string) *HTTPPool {
 		basePath: defaultBasePath, // 默认路径
 	}
 }
+
+func NewHTTPPoolWithTLS(self, caFile string) *HTTPPool {
+    client := newTLSClient(caFile)
+    return &HTTPPool{self: self, basePath: defaultBasePath, client: client}
+}
+
+func newTLSClient(caFile string) *http.Client {
+    pool := x509.NewCertPool()
+    pem, err := ioutil.ReadFile(caFile)
+    pool.AppendCertsFromPEM(pem)
+    tr := &http.Transport{
+        TLSClientConfig: &tls.Config{
+            RootCAs:    pool,
+            MinVersion: tls.VersionTLS12,
+        },
+    }
+    return &http.Client{Transport: tr}
+}
+
+
 
 // Log info with server name
 func (p *HTTPPool) Log(format string, v ...interface{}) {
@@ -123,7 +147,8 @@ func (p *HTTPPool) Set(peers ...string) {
 	p.httpGetters = make(map[string]*httpGetter, len(peers))
 	for _, peer := range peers {
 		// 为每个节点创建一个 HTTP 客户端，地址:http://10.0.0.2:8008/_geecache/
-		p.httpGetters[peer] = &httpGetter{baseURL: peer + p.basePath}
+		// p.httpGetters[peer] = &httpGetter{baseURL: peer + p.basePath}
+		p.httpGetters[peer] = &httpGetter{baseURL: peer + p.basePath, client: p.client}
 	}
 }
 
@@ -210,6 +235,7 @@ var _ PeerPicker = (*HTTPPool)(nil)
 
 type httpGetter struct {
 	baseURL string
+	client  *http.Client
 }
 
 func (h *httpGetter) Get(in *pb.Request, out *pb.Response) error {
@@ -221,7 +247,9 @@ func (h *httpGetter) Get(in *pb.Request, out *pb.Response) error {
 		url.QueryEscape(in.GetKey()),
 	)
 
-	res, err := http.Get(u) // 发送 HTTP 请求给该地址的 HTTP 服务端，由ServeHttp来处理
+	// res, err := http.Get(u) 
+	// 发送 HTTP 请求给该地址的 HTTP 服务端，由ServeHttp来处理
+	res, err := h.client.Get(u)
 	if err != nil {
 		return err
 	}
@@ -267,8 +295,10 @@ func (h *httpGetter) Set(in *pb.Request, out *pb.Response) error {
 	req.Header.Set("Content-Type", "application/octet-stream")
 
 	// 发送请求
-	client := &http.Client{}
-	res, err := client.Do(req)
+	// client := &http.Client{}
+	// res, err := client.Do(req)
+	res, err := h.client.Do(req)
+
 	if err != nil {
 		return fmt.Errorf("sending request: %v", err)
 	}
